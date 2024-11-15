@@ -5,7 +5,7 @@ public class ArrayNumbers11 {
         num[1] = 12;
         num[2] = 7;
         num[3] = 20;
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i <= 4; i++) {
         System.out.println(num[i]);
         }
     }
