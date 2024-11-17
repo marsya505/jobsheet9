@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class ArrayAverageScore11 {
     public static void main(String[] args) {
         Scanner input11 = new Scanner(System.in);
@@ -12,6 +11,9 @@ public class ArrayAverageScore11 {
         }
         for (int i = 0; i < score.length; i++) {
             total += score[i];
+            if (score[i] > 70) {
+                System.out.println("Student " + (i + 1) + " Passed");
+            }
         }
         average = total / score.length;
         System.out.println("The class average score is " + average);
