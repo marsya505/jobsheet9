@@ -19,6 +19,10 @@ public class LinearSearch11 {
                 break;
             }
         }
-        System.out.println("The key in the array is located at index position " + result);
+        if (result >= -1) {
+            System.out.println("The key in the array is located at index position " + result);
+        } else {
+            System.out.println("Key not found");
+        }
     }
 }
